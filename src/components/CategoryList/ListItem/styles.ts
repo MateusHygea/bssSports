@@ -1,9 +1,10 @@
-import styled from 'styled-components/native';
+import styled from 'styled-components';
 
 export const Container = styled.View`
-  flex:1 ;
   width: 100%;
-  background-color: #ffffff;
+  flex:1 ;
+  // background-color: #111;
+  padding: 0 10px;
 `
 
 export const areaView = styled.SafeAreaView`
@@ -16,8 +17,8 @@ export const areaView = styled.SafeAreaView`
 
 export const BlogContainer = styled.View`
   width: 90%;
+  height: 300px;
   margin: 0 auto;
-  margin-bottom: 10px;
 `
 export const blogImage = styled.Image`
   width: 100%;
@@ -30,6 +31,7 @@ export const LastNotices = styled.Text`
 
   margin-bottom: 8px;
 `
+
 export const blogTitle = styled.Text`
   font-weight: bold;
   font-size: 12px;
@@ -42,9 +44,11 @@ export const blogDescription = styled.Text`
 `
 
 export const blogInfosWrapper = styled.View`
-  width: 90%;
+  width: 80%;
   flex-direction: row;
+  
 `
+
 export const Separetor = styled.View`
   width: 100%;
   height: 1px;
@@ -81,5 +85,3 @@ export const blogFooterInfos = styled.View`
   align-items: center;
 
 `
-
-
