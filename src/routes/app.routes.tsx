@@ -9,7 +9,7 @@ export function AppRoutes() {
     <AppStack.Navigator initialRouteName="Home">
       <AppStack.Screen
       options={{ headerShown: false }}
-        name="BottomTabs"
+        name="BottomTabs" //a
         component={BottomTabs}
       />
     </AppStack.Navigator>
